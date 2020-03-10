@@ -14,6 +14,7 @@ Building this site one step at a time
 
 * The code in `init.js` that renders the current list for users is complete.
   * But the `renderList` DOM Component function is not!  you will need to write this
+* `renderList` list 
 * `index.html` is complete, just waiting for the code behind it
 
 ## 3. User Story: `reset` (completed for you)
@@ -22,26 +23,24 @@ Building this site one step at a time
 * I wrote the code in `listeners/reset.js` & `handlers/reset.js`
 * The handler function resets the `strings` object to it's initial values (the values in the source code), and re-renders the same UI as `init.js`.  in `listeners/reset.js` the handler is connected to the UI with a `click` event.
 
-## 4. User Story: ___
+## 4. User Story: Save
 
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * I started with 'Save' button as it is first and most important button that takes user input and sorts it into "odds", "evens" and "nany"
+> * write from scratch `handlerSave.js`
 
-## 5. User Story: ___
 
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
+## 5. User Story: Odds
 
-## 6. User Story: ___
+> * Added code to `handlerOdds.js`
+> * simply added code from `init.js` file
 
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
 
-## 7. User Story: ___
+## 6. User Story: Evens
 
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * Added code to `handlerEvens.js`
+> * simply added code from `init.js` file
+
+## 7. User Story: NaNy
+
+> * Added code to `handlerNany.js`
+> * simply added code from `init.js` file
